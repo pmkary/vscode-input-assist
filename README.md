@@ -1,4 +1,4 @@
-# vscode-input-assist
+<img src="https://user-images.githubusercontent.com/2157285/45492255-13768a00-b781-11e8-85ab-f98dc8ee9b9e.png" width="250">
 
 Tree-based input assistance for unicode and more in Visual Studio Code
 
@@ -8,12 +8,12 @@ This package provides a flexible input assistance framework built on top of
 Visual Studio Code's completion provider functionality. It works by loading JSON
 tree-based mappings from textual patterns to strings.
 
-For example, by loading a suitable mapping, a user could use the text \lambda
+For example, by loading a suitable mapping, a user could use the text `\lambda`
 for inserting the glyph λ.
 
 The "tree" behavior comes into play when there are choices between completions.
-For example, a mapping might replace \rightarrow with → and \rightarrowtail with
-↣. This package will provide a choice between inserting → and completing to ↣,
+For example, a mapping might replace `\rightarrow` with `→` and `\rightarrowtail` with
+`↣`. This package will provide a choice between inserting `→` and completing to `↣`,
 allowing the user to complete in a stepwise fashion.
 
 ## Status
